@@ -1,0 +1,1039 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AI Writing Tutor — an adaptive writing teacher for Classes 6–12 and the developers building it."
+    />
+    <title>AI Writing Tutor | Learn to write with confidence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <header class="nav">
+      <a class="brand" href="#top" aria-label="AI Writing Tutor home"
+        ><span class="brand-mark">✦</span
+        ><span>AI Writing <em>Tutor</em></span></a
+      >
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#how-it-works">How it works</a><a href="#practice">Practice</a
+        ><a href="#progress">Dashboard</a><a href="build.html">For builders</a>
+      </nav>
+      <button class="button button-small" data-scroll="#practice">
+        Start learning <span>↗</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero frame reveal">
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <span class="pulse"></span> Adaptive learning, one sentence at a
+            time
+          </div>
+          <h1>
+            Your personal<br /><span class="accent-text"
+              >AI writing tutor.</span
+            >
+          </h1>
+          <p class="hero-lede">
+            Write better. Understand your mistakes. Improve every time.
+          </p>
+          <div class="hero-actions">
+            <button class="button" data-scroll="#practice">
+              Start learning <span>↗</span></button
+            ><button class="button button-ghost" data-scroll="#assessment">
+              Take assessment <span>→</span>
+            </button>
+          </div>
+          <p class="microcopy">
+            Personalized writing education for Classes 6–12.
+          </p>
+        </div>
+        <div class="hero-art">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="tutor-core">
+            <div class="core-spark">✦</div>
+            <span>tutor / online</span
+            ><strong>Let's make<br />your ideas shine.</strong>
+          </div>
+          <div class="float-card float-score">
+            <span class="mini-icon green">↗</span>
+            <div><small>Grammar score</small><strong>87%</strong></div>
+          </div>
+          <div class="float-card float-vocab">
+            <span class="mini-icon purple">Aa</span>
+            <div>
+              <small>Vocabulary</small><strong>Improving <i>↑</i></strong>
+            </div>
+          </div>
+          <div class="float-card float-level">
+            <small>Writing level</small><strong>B1</strong
+            ><span class="level-dots">●●●○○</span>
+          </div>
+          <div class="float-card float-streak">
+            <span>✹</span>
+            <div><small>Streak</small><strong>7 days</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="frame problem-section reveal">
+        <div class="section-intro">
+          <div class="eyebrow">01 / The gap</div>
+          <h2>
+            Every student<br /><span class="muted">writes differently.</span>
+          </h2>
+          <p>
+            Traditional classrooms are brilliant at teaching a room. They are
+            not built to give detailed, personal feedback on every sentence.
+          </p>
+        </div>
+        <div class="problem-grid">
+          <article class="feature-card">
+            <span class="card-number">01</span>
+            <div class="card-icon">◌</div>
+            <h3>Limited individual feedback</h3>
+            <p>
+              Students submit writing without understanding every mistake, or
+              how to fix it next time.
+            </p>
+          </article>
+          <article class="feature-card">
+            <span class="card-number">02</span>
+            <div class="card-icon">◈</div>
+            <h3>One lesson doesn't fit everyone</h3>
+            <p>
+              Different students have different grammar, vocabulary, and writing
+              abilities.
+            </p>
+          </article>
+          <article class="feature-card">
+            <span class="card-number">03</span>
+            <div class="card-icon">⌁</div>
+            <h3>Progress is difficult to measure</h3>
+            <p>
+              Students and parents need a clear signal that writing skills are
+              actually improving.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="frame solution-section reveal">
+        <div class="eyebrow">02 / The solution</div>
+        <div class="split-heading">
+          <h2>
+            Meet your<br /><span class="accent-text">AI writing tutor.</span>
+          </h2>
+          <p>
+            An intelligent personal coach that evaluates writing, explains
+            mistakes, creates targeted exercises, and adapts the journey after
+            every attempt.
+          </p>
+        </div>
+        <div class="workflow">
+          <div class="workflow-center">
+            <span>AGENTIC<br />LEARNING LOOP</span
+            ><strong>Assess<br />→ Teach<br />→ Improve</strong>
+          </div>
+          <div class="workflow-node n1">Assess</div>
+          <div class="workflow-node n2">Teach</div>
+          <div class="workflow-node n3">Practice</div>
+          <div class="workflow-node n4">Evaluate</div>
+          <div class="workflow-node n5">Adapt</div>
+          <div class="workflow-node n6">Improve</div>
+        </div>
+      </section>
+
+      <section class="frame teach-section reveal">
+        <div class="section-intro centered">
+          <div class="eyebrow">03 / How it teaches</div>
+          <h2>
+            It doesn't just correct you.<br /><span class="accent-text"
+              >It teaches you.</span
+            >
+          </h2>
+        </div>
+        <div class="lesson-demo">
+          <div class="submission panel">
+            <div class="panel-label">
+              Student submission <span>● live</span>
+            </div>
+            <blockquote>
+              “My school <mark class="issue">are</mark> very beautiful.”
+            </blockquote>
+            <div class="feedback-line">
+              <span class="line-dot"></span>
+              <div>
+                <small>Grammar correction</small
+                ><strong>My school <mark>is</mark> very beautiful.</strong>
+                <p>
+                  <b>What went wrong?</b> “School” is singular, so it takes the
+                  singular verb <b>is.</b>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="practice-card panel">
+            <div class="panel-label">Practice / subject–verb agreement</div>
+            <h3>Choose the correct sentence</h3>
+            <button class="quiz-option" data-correct="false">
+              A. My friends is playing.</button
+            ><button class="quiz-option" data-correct="true">
+              B. My friends are playing.
+            </button>
+            <p class="quiz-result" aria-live="polite"></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="assessment" class="frame assessment-section reveal">
+        <div class="assessment-copy">
+          <div class="eyebrow">04 / Start here</div>
+          <h2>
+            First, the AI<br /><span class="accent-text"
+              >gets to know you.</span
+            >
+          </h2>
+          <p>
+            Your plan starts with two quick signals. Pick what feels most useful
+            right now.
+          </p>
+        </div>
+        <div class="assessment-card panel">
+          <div class="step-label">
+            Assessment <span id="assessment-step">01 / 02</span>
+          </div>
+          <div id="assessment-question">
+            <h3>What would you like to improve?</h3>
+            <div class="choice-grid">
+              <button class="choice" data-choice="Grammar">Grammar</button
+              ><button class="choice" data-choice="Vocabulary">
+                Vocabulary</button
+              ><button class="choice" data-choice="Essay Writing">
+                Essay writing</button
+              ><button class="choice" data-choice="Creative Writing">
+                Creative writing</button
+              ><button class="choice" data-choice="Sentence Structure">
+                Sentence structure</button
+              ><button class="choice" data-choice="Professional Writing">
+                Professional writing
+              </button>
+            </div>
+          </div>
+          <div class="plan-ready" id="plan-ready">
+            <div class="loader-ring"></div>
+            <strong>Your personalized learning plan is ready.</strong
+            ><small>Built around your goals and current level.</small
+            ><button class="button button-small" data-scroll="#dashboard">
+              View plan <span>↗</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="dashboard" class="frame dashboard-section reveal">
+        <div class="dash-top">
+          <div>
+            <div class="eyebrow">05 / Your dashboard</div>
+            <h2>Your learning<br /><span class="muted">journey.</span></h2>
+          </div>
+          <div class="profile-chip">
+            <span class="avatar">A</span>
+            <div>
+              <strong>Aarav</strong><small>Class 9 · Intermediate</small>
+            </div>
+            <span>⌄</span>
+          </div>
+        </div>
+        <div class="dashboard-layout">
+          <div class="journey panel">
+            <div class="panel-heading">
+              <span>6-week path</span><small>42% complete</small>
+            </div>
+            <div class="journey-progress"><span></span></div>
+            <div class="timeline">
+              <div class="timeline-item done">
+                <span>✓</span>
+                <div>
+                  <small>Week 1</small><strong>Grammar foundations</strong>
+                </div>
+                <b>Completed</b>
+              </div>
+              <div class="timeline-item active">
+                <span>2</span>
+                <div>
+                  <small>Week 2</small><strong>Sentence building</strong>
+                </div>
+                <b>In progress</b>
+              </div>
+              <div class="timeline-item">
+                <span>3</span>
+                <div>
+                  <small>Week 3</small><strong>Vocabulary expansion</strong>
+                </div>
+                <b>Locked</b>
+              </div>
+              <div class="timeline-item">
+                <span>4</span>
+                <div>
+                  <small>Week 4</small><strong>Paragraph structure</strong>
+                </div>
+                <b>Locked</b>
+              </div>
+              <div class="timeline-item">
+                <span>5</span>
+                <div><small>Week 5</small><strong>Essay writing</strong></div>
+                <b>Locked</b>
+              </div>
+            </div>
+          </div>
+          <div class="stats-column">
+            <div class="ring-card panel">
+              <div class="progress-ring">
+                <span>42<small>%</small></span>
+              </div>
+              <small>Overall progress</small
+              ><strong>Next: structured essays</strong>
+            </div>
+            <div class="streak-card panel">
+              <span class="flame">✹</span>
+              <div>
+                <strong>7 day streak</strong
+                ><small>Keep your momentum going</small>
+              </div>
+              <span class="sparkline">⌁⌁⌁⌁⌁</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="practice" class="frame practice-section reveal">
+        <div class="practice-header">
+          <div>
+            <div class="eyebrow">06 / Writing studio</div>
+            <h2>
+              Today's writing<br /><span class="accent-text">challenge.</span>
+            </h2>
+          </div>
+          <div class="studio-meta">
+            <span class="autosave"><i></i> Autosaved</span
+            ><span id="timer">12:00</span>
+          </div>
+        </div>
+        <div class="editor-shell panel">
+          <div class="editor-toolbar">
+            <span>Untitled reflection</span>
+            <div>
+              <button title="Bold">B</button
+              ><button title="Italic"><i>I</i></button
+              ><button title="Align">≡</button>
+            </div>
+          </div>
+          <div class="prompt-strip">
+            <span>Prompt</span
+            ><strong
+              >Describe a memorable day at school in 150–200 words.</strong
+            >
+          </div>
+          <textarea
+            id="writing-editor"
+            aria-label="Writing editor"
+            placeholder="Start writing here..."
+          >
+Last autumn, our class visited the city museum. I expected a quiet afternoon, but the day became surprisingly exciting when our guide showed us a letter written by a student almost a hundred years ago. It reminded me that curiosity can make an ordinary school day memorable.</textarea
+          >
+          <div class="editor-footer">
+            <span id="word-count">36 words</span><span>Goal: 150–200 words</span
+            ><button class="hint-button" id="hint-button">✦ AI hint</button
+            ><button class="button button-small" id="submit-writing">
+              Submit writing <span>↗</span>
+            </button>
+          </div>
+          <div class="hint-box" id="hint-box">
+            Try using at least three descriptive adjectives.
+          </div>
+        </div>
+      </section>
+
+      <section class="frame evaluation-section reveal">
+        <div class="eval-heading">
+          <div>
+            <div class="eyebrow">07 / Instant evaluation</div>
+            <h2>
+              Here's how<br /><span class="accent-text">you performed.</span>
+            </h2>
+          </div>
+          <div class="overall-score">
+            <strong>84</strong
+            ><span>/ 100<br /><small>overall score</small></span>
+          </div>
+        </div>
+        <div class="score-grid">
+          <div class="score-card">
+            <span>Grammar</span><strong>82%</strong>
+            <div><i style="--score: 82%"></i></div>
+          </div>
+          <div class="score-card">
+            <span>Vocabulary</span><strong>76%</strong>
+            <div><i style="--score: 76%"></i></div>
+          </div>
+          <div class="score-card">
+            <span>Structure</span><strong>88%</strong>
+            <div><i style="--score: 88%"></i></div>
+          </div>
+          <div class="score-card">
+            <span>Coherence</span><strong>84%</strong>
+            <div><i style="--score: 84%"></i></div>
+          </div>
+          <div class="score-card">
+            <span>Creativity</span><strong>91%</strong>
+            <div><i style="--score: 91%"></i></div>
+          </div>
+        </div>
+        <div class="insight-banner">
+          <span>✦</span>
+          <p>
+            You're improving in <b>structure</b>, but let's strengthen
+            <b>vocabulary.</b>
+          </p>
+          <button class="text-button">See feedback →</button>
+        </div>
+      </section>
+
+      <section class="frame feedback-section reveal">
+        <div class="section-intro">
+          <div class="eyebrow">08 / Smart feedback</div>
+          <h2>Feedback you<br /><span class="muted">can use.</span></h2>
+          <p>
+            Tap a highlighted sentence to see the thinking behind the
+            suggestion.
+          </p>
+        </div>
+        <div class="feedback-workspace">
+          <div class="paragraph panel">
+            <div class="panel-label">
+              Your paragraph <span>3 insights</span>
+            </div>
+            <p>
+              I was
+              <button
+                class="highlight vocab"
+                data-feedback="Vocabulary upgrade|‘Thrilled’ provides a stronger and more precise expression than ‘very happy.’"
+              >
+                very happy
+              </button>
+              because the trip was
+              <button
+                class="highlight improve"
+                data-feedback="Sentence improvement|Try a more specific sensory detail to help your reader experience the moment."
+              >
+                very nice</button
+              >. The museum had
+              <button
+                class="highlight strong"
+                data-feedback="Strong writing|Specific details like ‘a letter written by a student’ make your writing memorable."
+              >
+                a letter written by a student</button
+              >.
+            </p>
+          </div>
+          <div class="explanation panel" id="feedback-panel">
+            <div class="panel-label">AI explanation</div>
+            <span class="feedback-tag">Vocabulary upgrade</span>
+            <h3>Make a familiar idea more precise.</h3>
+            <p>
+              “Thrilled” is a stronger, more vivid expression than “very happy.”
+              It helps the reader feel the intensity of the moment.
+            </p>
+            <button class="button button-small" data-scroll="#practice">
+              Try it yourself <span>→</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="progress" class="frame progress-section reveal">
+        <div class="dash-top">
+          <div>
+            <div class="eyebrow">09 / Progress</div>
+            <h2>
+              See yourself<br /><span class="accent-text">getting better.</span>
+            </h2>
+          </div>
+          <div class="streak-pill">✹ 7 day writing streak</div>
+        </div>
+        <div class="progress-layout">
+          <div class="chart-card panel">
+            <div class="panel-heading">
+              <span>Writing score</span><small>Last 6 weeks <b>↗ 18%</b></small>
+            </div>
+            <div class="chart">
+              <div class="chart-labels">
+                <span>100</span><span>80</span><span>60</span><span>40</span>
+              </div>
+              <svg
+                viewBox="0 0 600 210"
+                role="img"
+                aria-label="Writing score improving from 64 to 84"
+              >
+                <path
+                  class="chart-grid"
+                  d="M0 30H600M0 90H600M0 150H600M0 205H600"
+                />
+                <path
+                  class="chart-area"
+                  d="M0 175 C70 166 85 150 140 157 S210 126 260 140 S325 102 370 115 S430 80 475 90 S540 49 600 62 V210 H0Z"
+                />
+                <path
+                  class="chart-line"
+                  d="M0 175 C70 166 85 150 140 157 S210 126 260 140 S325 102 370 115 S430 80 475 90 S540 49 600 62"
+                />
+                <circle cx="600" cy="62" r="5" />
+              </svg>
+              <div class="chart-weeks">
+                <span>W1</span><span>W2</span><span>W3</span><span>W4</span
+                ><span>W5</span><span>W6</span>
+              </div>
+            </div>
+          </div>
+          <div class="metrics-card panel">
+            <div>
+              <span>Grammar</span><strong>72% → <b>84%</b></strong>
+            </div>
+            <div>
+              <span>Vocabulary</span><strong>65% → <b>79%</b></strong>
+            </div>
+            <div>
+              <span>Structure</span><strong>70% → <b>88%</b></strong>
+            </div>
+            <div>
+              <span>Confidence</span><strong>58% → <b>81%</b></strong>
+            </div>
+          </div>
+        </div>
+        <div class="badges">
+          <span>✹ Grammar master</span><span>✎ Consistent writer</span
+          ><span>Aa Vocabulary builder</span>
+        </div>
+      </section>
+
+      <section class="frame parent-section reveal">
+        <div class="parent-quote">
+          <div class="eyebrow">10 / For parents</div>
+          <h2>
+            Parents can finally<br /><span class="accent-text"
+              >see the progress.</span
+            >
+          </h2>
+          <p>
+            A clear, human report about what changed this week and what to
+            practice next.
+          </p>
+          <button class="button button-small">
+            View full report <span>↗</span>
+          </button>
+        </div>
+        <div class="parent-report panel">
+          <div class="report-head">
+            <div class="profile-chip">
+              <span class="avatar">A</span>
+              <div>
+                <strong>Aarav</strong><small>Class 9 · Intermediate</small>
+              </div>
+            </div>
+            <strong class="positive">+18%</strong>
+          </div>
+          <div class="report-stats">
+            <div><small>Writing sessions</small><strong>24</strong></div>
+            <div><small>Current streak</small><strong>7 days</strong></div>
+          </div>
+          <div class="report-bars">
+            <div>
+              <span>Grammar <b>↑ 8%</b></span
+              ><i style="--score: 68%"></i>
+            </div>
+            <div>
+              <span>Vocabulary <b>↑ 12%</b></span
+              ><i style="--score: 78%"></i>
+            </div>
+            <div>
+              <span>Structure <b>↑ 15%</b></span
+              ><i style="--score: 86%"></i>
+            </div>
+          </div>
+          <p class="summary">
+            <span>✦</span> Aarav has shown strong improvement in paragraph
+            structure and consistency. Vocabulary remains the main area for
+            improvement.
+          </p>
+        </div>
+      </section>
+
+      <section id="build" class="frame founder-intro reveal">
+        <div class="eyebrow">Founder track / 18–31</div>
+        <h2>
+          How we build<br /><span class="lime-text">the AI writing tutor.</span>
+        </h2>
+        <p>
+          For the developer who already knows how to ship software, work with
+          APIs, and think in systems. This is a realistic path from existing
+          skills to a scalable EdTech platform.
+        </p>
+        <div class="founder-stats">
+          <span><b>6</b> months to pilot</span
+          ><span><b>1</b> adaptive loop</span
+          ><span><b>0</b> foundation models to train</span>
+        </div>
+      </section>
+
+      <section class="frame skills-section reveal">
+        <div class="section-intro">
+          <div class="eyebrow">18 / Start from existing skills</div>
+          <h2>
+            You don't need<br /><span class="lime-text"
+              >to start from zero.</span
+            >
+          </h2>
+          <p>
+            Build on what you already know. Learn only what the product
+            requires.
+          </p>
+        </div>
+        <div class="skill-map">
+          <div class="skill-cloud known">
+            <label>Already familiar</label><span>Python</span><span>React</span
+            ><span>JavaScript</span><span>Node.js</span><span>APIs</span
+            ><span>SQL</span><span>PostgreSQL</span><span>RAG concepts</span
+            ><span>FAISS</span><span>LangChain</span
+            ><span>GenAI fundamentals</span>
+          </div>
+          <div class="skill-arrow">→</div>
+          <div class="skill-cloud next">
+            <label>Next skills to master</label><span>LLM architecture</span
+            ><span>AI evaluation</span><span>Agentic workflows</span
+            ><span>Student profiling</span><span>Adaptive learning</span
+            ><span>Educational content</span><span>AI safety</span
+            ><span>Production deployment</span><span>Analytics</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="frame approach-section reveal">
+        <div class="section-intro centered">
+          <div class="eyebrow">19 / The right approach</div>
+          <h2>
+            Don't train an AI model.<br /><span class="lime-text"
+              >Build an AI product.</span
+            >
+          </h2>
+        </div>
+        <div class="compare-grid">
+          <div class="compare-card no">
+            <span>× Don't start here</span>
+            <h3>Train a foundation model from scratch</h3>
+            <p>
+              Massive datasets<br />Expensive GPUs<br />Large ML team<br />Long
+              development cycle
+            </p>
+          </div>
+          <div class="compare-card yes">
+            <span>✓ Start here</span>
+            <h3>Build on existing foundation models</h3>
+            <p>
+              AI APIs<br />Structured outputs<br />Agent workflows<br />Evaluation
+              + learning data
+            </p>
+            <strong
+              >Your advantage is the learning system around the model.</strong
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="frame roadmap-section reveal">
+        <div class="section-intro">
+          <div class="eyebrow">20 / Your learning path</div>
+          <h2>
+            The fastest path<br /><span class="lime-text"
+              >for a software developer.</span
+            >
+          </h2>
+        </div>
+        <div class="roadmap">
+          <article>
+            <b>01</b>
+            <h3>LLM application development</h3>
+            <p>Prompts · structured outputs · tools · context</p>
+            <small>2–3 weeks</small>
+          </article>
+          <article>
+            <b>02</b>
+            <h3>AI evaluation</h3>
+            <p>Rubrics · datasets · hallucination detection</p>
+            <small>2–3 weeks</small>
+          </article>
+          <article>
+            <b>03</b>
+            <h3>Agentic AI</h3>
+            <p>Workflows · memory · planning · profiles</p>
+            <small>3–4 weeks</small>
+          </article>
+          <article>
+            <b>04</b>
+            <h3>Adaptive learning</h3>
+            <p>Skill graphs · weaknesses · difficulty</p>
+            <small>3–4 weeks</small>
+          </article>
+          <article>
+            <b>05</b>
+            <h3>Production AI</h3>
+            <p>Security · monitoring · cost · analytics</p>
+            <small>3–4 weeks</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="frame architecture-section reveal">
+        <div class="section-intro centered">
+          <div class="eyebrow">21 / Technical architecture</div>
+          <h2>Inside the <span class="lime-text">AI writing tutor.</span></h2>
+        </div>
+        <div class="architecture">
+          <div class="arch-node">
+            STUDENT<small>Writes and practices</small>
+          </div>
+          <i>↓</i>
+          <div class="arch-node">
+            REACT WEB APP<small>Accessible learning surface</small>
+          </div>
+          <i>↓</i>
+          <div class="arch-node">
+            BACKEND API<small>Auth, data, orchestration</small>
+          </div>
+          <i>↓</i>
+          <div class="arch-node highlight">
+            AI ORCHESTRATION LAYER<small
+              >Profile · evaluate · teach · adapt</small
+            >
+          </div>
+          <i>↓</i>
+          <div class="arch-modules">
+            <span>Student profile</span><span>Writing evaluator</span
+            ><span>Feedback engine</span><span>Lesson generator</span
+            ><span>Progress analyzer</span>
+          </div>
+          <i>↓</i>
+          <div class="arch-node">
+            LLM + POSTGRESQL<small>Reasoning meets memory</small>
+          </div>
+          <i>↓</i>
+          <div class="arch-node outcome">PERSONALIZED LEARNING PLAN</div>
+        </div>
+      </section>
+
+      <section class="frame loop-section reveal">
+        <div class="section-intro">
+          <div class="eyebrow">22 / The AI agent loop</div>
+          <h2>
+            This is what<br /><span class="lime-text">makes it an agent.</span>
+          </h2>
+          <p>
+            It does not simply answer a question. It changes the next activity
+            based on what just happened.
+          </p>
+        </div>
+        <div class="agent-loop">
+          <div class="loop-center">ADAPTIVE<br />LEARNING LOOP</div>
+          <span class="loop-step ls1"
+            >01 <b>Assess</b><small>Understand level</small></span
+          ><span class="loop-step ls2"
+            >02 <b>Analyze</b><small>Find patterns</small></span
+          ><span class="loop-step ls3"
+            >03 <b>Explain</b><small>Teach the why</small></span
+          ><span class="loop-step ls4"
+            >04 <b>Practice</b><small>Target weakness</small></span
+          ><span class="loop-step ls5"
+            >05 <b>Evaluate</b><small>Check improvement</small></span
+          ><span class="loop-step ls6"
+            >06 <b>Adapt</b><small>Update profile</small></span
+          >
+        </div>
+      </section>
+
+      <section class="frame agent-example-section reveal">
+        <div class="section-intro centered">
+          <div class="eyebrow">23 / Real example</div>
+          <h2>
+            Watch the agent<br /><span class="lime-text"
+              >learn about a student.</span
+            >
+          </h2>
+        </div>
+        <div class="agent-example">
+          <div class="agent-event">
+            <span>Student writes</span
+            ><strong>“My school are very beautiful.”</strong>
+          </div>
+          <div class="agent-event">
+            <span>AI detects</span
+            ><strong>Grammar → Subject–verb agreement</strong>
+          </div>
+          <div class="agent-event">
+            <span>AI explains</span
+            ><strong>“School” is singular, so the correct verb is “is.”</strong>
+          </div>
+          <div class="agent-event success">
+            <span>Student profile updated</span
+            ><strong
+              >Grammar weakness: Subject–verb agreement <em>+1</em></strong
+            >
+          </div>
+          <div class="agent-event">
+            <span>AI generates next exercise</span
+            ><strong
+              >My friends
+              <button class="inline-answer" data-agent-answer="wrong">
+                is
+              </button>
+              playing. / My friends
+              <button class="inline-answer" data-agent-answer="right">
+                are
+              </button>
+              playing.</strong
+            ><small id="agent-feedback">Select the stronger sentence.</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="frame data-section reveal">
+        <div class="section-intro">
+          <div class="eyebrow">24 / Data model</div>
+          <h2>
+            Every interaction makes<br /><span class="lime-text"
+              >the tutor smarter.</span
+            >
+          </h2>
+          <p>The database becomes the learner's long-term memory.</p>
+        </div>
+        <div class="data-model">
+          <div class="entity main">
+            <b>STUDENT</b
+            ><span>student_id · grade · goals<br />writing_level</span>
+          </div>
+          <div class="entity">
+            <b>WRITING_SUBMISSION</b><span>text · score · timestamp</span>
+          </div>
+          <div class="entity">
+            <b>SKILL</b
+            ><span>grammar · vocabulary<br />structure · creativity</span>
+          </div>
+          <div class="entity">
+            <b>MISTAKE</b><span>category · frequency<br />severity</span>
+          </div>
+          <div class="entity">
+            <b>LESSON</b><span>topic · difficulty<br />completion · score</span>
+          </div>
+          <div class="entity">
+            <b>PROGRESS</b
+            ><span>skill_score · streak<br />mastery · improvement</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="frame rubric-section reveal">
+        <div class="section-intro centered">
+          <div class="eyebrow">25 / AI evaluation engine</div>
+          <h2>
+            How do we know the AI<br /><span class="lime-text"
+              >is actually teaching?</span
+            >
+          </h2>
+        </div>
+        <div class="rubric-grid">
+          <div class="rubric-card">
+            <b>Grammar</b><span>Correctness of syntax</span
+            ><strong>8 / 10</strong>
+          </div>
+          <div class="rubric-card">
+            <b>Vocabulary</b><span>Range and precision</span
+            ><strong>7 / 10</strong>
+          </div>
+          <div class="rubric-card">
+            <b>Structure</b><span>Logical organization</span
+            ><strong>9 / 10</strong>
+          </div>
+          <div class="rubric-card">
+            <b>Coherence</b><span>Connection of ideas</span
+            ><strong>8 / 10</strong>
+          </div>
+          <div class="rubric-card">
+            <b>Creativity</b><span>Quality of expression</span
+            ><strong>9 / 10</strong>
+          </div>
+        </div>
+        <div class="rubric-note">
+          Evaluation should be consistent, explainable, and measurable.
+          <strong>Overall: 82 / 100</strong>
+        </div>
+      </section>
+
+      <section class="frame rag-section reveal">
+        <div class="section-intro">
+          <div class="eyebrow">26 / RAG knowledge layer</div>
+          <h2>
+            Give the AI<br /><span class="lime-text">a teaching brain.</span>
+          </h2>
+          <p>
+            The model provides intelligence. Your knowledge base provides
+            educational context.
+          </p>
+        </div>
+        <div class="rag-pipeline">
+          <span>CURRICULUM</span><i>↓</i><span>TEXTBOOKS + RUBRICS</span><i>↓</i
+          ><span>DOCUMENT PROCESSING</span><i>↓</i><span>EMBEDDINGS</span
+          ><i>↓</i><span class="lime-node">VECTOR DB / pgvector</span><i>↓</i
+          ><span>RETRIEVAL + LLM</span><i>↓</i
+          ><strong>PERSONALIZED LESSON</strong>
+        </div>
+      </section>
+
+      <section class="frame stack-section reveal">
+        <div class="section-intro centered">
+          <div class="eyebrow">27 / MVP technology stack</div>
+          <h2>
+            Build the first version<br /><span class="lime-text"
+              >with a simple stack.</span
+            >
+          </h2>
+        </div>
+        <div class="stack-grid">
+          <div><small>Frontend</small><strong>React</strong></div>
+          <div><small>Backend</small><strong>FastAPI / Node.js</strong></div>
+          <div><small>Database</small><strong>PostgreSQL</strong></div>
+          <div><small>AI</small><strong>OpenAI API</strong></div>
+          <div><small>RAG</small><strong>FAISS / pgvector</strong></div>
+          <div><small>Auth</small><strong>JWT / OAuth</strong></div>
+          <div><small>Deploy</small><strong>AWS / Vercel</strong></div>
+          <div><small>Monitor</small><strong>Logs + eval metrics</strong></div>
+        </div>
+      </section>
+
+      <section class="frame focus-section reveal">
+        <div class="focus-card">
+          <div class="eyebrow">28 / What not to build yet</div>
+          <h2>Stay focused.</h2>
+          <p class="not-yet">
+            Not yet: your own foundation model · voice tutoring · mobile apps ·
+            50+ subjects · global curriculum · advanced gamification ·
+            enterprise school management
+          </p>
+          <div class="mvp-callout">
+            <span>MVP ONLY</span>
+            <h3>AI Essay Tutor for Classes 8–12</h3>
+            <p>
+              Writing assessment · grammar feedback · essay evaluation ·
+              personalized exercises · progress tracking
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="frame six-month-section reveal">
+        <div class="section-intro">
+          <div class="eyebrow">29 / Six-month build roadmap</div>
+          <h2>
+            From developer<br /><span class="lime-text">→ founder → MVP.</span>
+          </h2>
+        </div>
+        <div class="months">
+          <article>
+            <b>Month 01</b>
+            <h3>LLM applications</h3>
+            <p>Prompts · APIs · outputs</p>
+          </article>
+          <article>
+            <b>Month 02</b>
+            <h3>AI evaluation</h3>
+            <p>Rubrics · datasets · quality</p>
+          </article>
+          <article>
+            <b>Month 03</b>
+            <h3>Agentic architecture</h3>
+            <p>Profiles · memory · workflows</p>
+          </article>
+          <article>
+            <b>Month 04</b>
+            <h3>Product development</h3>
+            <p>React · backend · database</p>
+          </article>
+          <article>
+            <b>Month 05</b>
+            <h3>MVP integration</h3>
+            <p>Evaluator · lessons · parents</p>
+          </article>
+          <article>
+            <b>Month 06</b>
+            <h3>Pilot</h3>
+            <p>20–50 students · iterate</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="frame moat-section reveal">
+        <div class="moat-orbit">
+          <span>Student data</span><span>Educational content</span
+          ><span>Evaluation system</span><span>Personalization engine</span
+          ><span>Learning outcomes</span><strong>AI WRITING<br />TUTOR</strong>
+        </div>
+        <div class="moat-copy">
+          <div class="eyebrow">30 / The real competitive advantage</div>
+          <h2>
+            The AI model<br /><span class="lime-text">isn't the moat.</span>
+          </h2>
+          <p>
+            The product becomes valuable because it understands how students
+            learn, not simply because it can generate text.
+          </p>
+        </div>
+      </section>
+
+      <section class="frame final-section reveal">
+        <div class="final-mark">✦</div>
+        <div class="eyebrow">31 / The product vision</div>
+        <h2>
+          Build the tutor you wish<br /><span class="accent-text"
+            >every student had.</span
+          >
+        </h2>
+        <p>
+          AI that doesn't just write for students. AI that teaches students to
+          write.
+        </p>
+        <div class="vision-flow">
+          <span>Student writes poorly</span><i>→</i><span>AI teaches</span
+          ><i>→</i><span>Student practices</span><i>→</i
+          ><span>Student improves</span><i>→</i
+          ><strong>Writes confidently</strong>
+        </div>
+        <button class="button">Build the MVP <span>↗</span></button>
+      </section>
+    </main>
+    <footer>
+      <span>✦ AI Writing Tutor</span
+      ><span>Adaptive writing education for Classes 6–12.</span
+      ><span>Built for the curious.</span>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

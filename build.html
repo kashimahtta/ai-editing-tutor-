@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="How we build the AI Writing Tutor: a technical founder path from existing skills to an adaptive EdTech MVP."
+    />
+    <title>Build the AI Writing Tutor | Founder track</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="builder-page">
+    <div class="noise"></div>
+    <header class="nav">
+      <a class="brand" href="index.html" aria-label="AI Writing Tutor home"
+        ><span class="brand-mark">✦</span
+        ><span>AI Writing <em>Tutor</em></span></a
+      >
+      <nav class="nav-links" aria-label="Builder navigation">
+        <a href="index.html#how-it-works">Product</a
+        ><a href="#architecture">Architecture</a><a href="#roadmap">Roadmap</a
+        ><a href="#stack">Stack</a>
+      </nav>
+      <a class="button button-small" href="index.html#practice"
+        >Open tutor <span>↗</span></a
+      >
+    </header>
+    <main id="top">
+      <section class="frame founder-intro reveal">
+        <div class="eyebrow">Founder track / 18–31</div>
+        <h1>
+          How we build<br /><span class="lime-text">the AI writing tutor.</span>
+        </h1>
+        <p>
+          For the developer who already knows how to ship software, work with
+          APIs, and think in systems. A realistic path from existing skills to a
+          scalable EdTech platform.
+        </p>
+        <div class="founder-stats">
+          <span><b>6</b> months to pilot</span
+          ><span><b>1</b> adaptive loop</span
+          ><span><b>0</b> foundation models to train</span>
+        </div>
+      </section>
+      <section class="frame skills-section reveal">
+        <div class="section-intro">
+          <div class="eyebrow">18 / Start from existing skills</div>
+          <h2>
+            You don't need<br /><span class="lime-text"
+              >to start from zero.</span
+            >
+          </h2>
+          <p>
+            Build on what you already know. Learn only what the product
+            requires.
+          </p>
+        </div>
+        <div class="skill-map">
+          <div class="skill-cloud known">
+            <label>Already familiar</label><span>Python</span><span>React</span
+            ><span>JavaScript</span><span>Node.js</span><span>APIs</span
+            ><span>SQL</span><span>PostgreSQL</span><span>RAG concepts</span
+            ><span>FAISS</span><span>LangChain</span
+            ><span>GenAI fundamentals</span>
+          </div>
+          <div class="skill-arrow">→</div>
+          <div class="skill-cloud next">
+            <label>Next skills to master</label><span>LLM architecture</span
+            ><span>AI evaluation</span><span>Agentic workflows</span
+            ><span>Student profiling</span><span>Adaptive learning</span
+            ><span>Educational content</span><span>AI safety</span
+            ><span>Production deployment</span><span>Analytics</span>
+          </div>
+        </div>
+      </section>
+      <section class="frame approach-section reveal">
+        <div class="section-intro centered">
+          <div class="eyebrow">19 / The right approach</div>
+          <h2>
+            Don't train an AI model.<br /><span class="lime-text"
+              >Build an AI product.</span
+            >
+          </h2>
+        </div>
+        <div class="compare-grid">
+          <div class="compare-card no">
+            <span>× Don't start here</span>
+            <h3>Train a foundation model from scratch</h3>
+            <p>
+              Massive datasets<br />Expensive GPUs<br />Large ML team<br />Long
+              development cycle
+            </p>
+          </div>
+          <div class="compare-card yes">
+            <span>✓ Start here</span>
+            <h3>Build on existing foundation models</h3>
+            <p>
+              AI APIs<br />Structured outputs<br />Agent workflows<br />Evaluation
+              + learning data
+            </p>
+            <strong
+              >Your advantage is the learning system around the model.</strong
+            >
+          </div>
+        </div>
+      </section>
+      <section id="roadmap" class="frame roadmap-section reveal">
+        <div class="section-intro">
+          <div class="eyebrow">20 / Your learning path</div>
+          <h2>
+            The fastest path<br /><span class="lime-text"
+              >for a software developer.</span
+            >
+          </h2>
+        </div>
+        <div class="roadmap">
+          <article>
+            <b>01</b>
+            <h3>LLM application development</h3>
+            <p>Prompts · structured outputs · tools · context</p>
+            <small>2–3 weeks</small>
+          </article>
+          <article>
+            <b>02</b>
+            <h3>AI evaluation</h3>
+            <p>Rubrics · datasets · hallucination detection</p>
+            <small>2–3 weeks</small>
+          </article>
+          <article>
+            <b>03</b>
+            <h3>Agentic AI</h3>
+            <p>Workflows · memory · planning · profiles</p>
+            <small>3–4 weeks</small>
+          </article>
+          <article>
+            <b>04</b>
+            <h3>Adaptive learning</h3>
+            <p>Skill graphs · weaknesses · difficulty</p>
+            <small>3–4 weeks</small>
+          </article>
+          <article>
+            <b>05</b>
+            <h3>Production AI</h3>
+            <p>Security · monitoring · cost · analytics</p>
+            <small>3–4 weeks</small>
+          </article>
+        </div>
+      </section>
+      <section id="architecture" class="frame architecture-section reveal">
+        <div class="section-intro centered">
+          <div class="eyebrow">21 / Technical architecture</div>
+          <h2>Inside the <span class="lime-text">AI writing tutor.</span></h2>
+        </div>
+        <div class="architecture">
+          <div class="arch-node">
+            STUDENT<small>Writes and practices</small>
+          </div>
+          <i>↓</i>
+          <div class="arch-node">
+            REACT WEB APPLICATION<small>Accessible learning surface</small>
+          </div>
+          <i>↓</i>
+          <div class="arch-node">
+            BACKEND API<small>Auth, data, orchestration</small>
+          </div>
+          <i>↓</i>
+          <div class="arch-node highlight">
+            AI ORCHESTRATION LAYER<small
+              >Profile · evaluate · teach · adapt</small
+            >
+          </div>
+          <i>↓</i>
+          <div class="arch-modules">
+            <span>Student profile</span><span>Writing evaluator</span
+            ><span>Feedback engine</span><span>Lesson generator</span
+            ><span>Progress analyzer</span>
+          </div>
+          <i>↓</i>
+          <div class="arch-node">
+            LLM + POSTGRESQL<small>Reasoning meets memory</small>
+          </div>
+          <i>↓</i>
+          <div class="arch-node outcome">PERSONALIZED LEARNING PLAN</div>
+        </div>
+      </section>
+      <section class="frame loop-section reveal">
+        <div class="section-intro">
+          <div class="eyebrow">22 / The AI agent loop</div>
+          <h2>
+            This is what<br /><span class="lime-text">makes it an agent.</span>
+          </h2>
+          <p>
+            It does not simply answer a question. It changes the next activity
+            based on what just happened.
+          </p>
+        </div>
+        <div class="agent-loop">
+          <div class="loop-center">ADAPTIVE<br />LEARNING LOOP</div>
+          <span class="loop-step ls1"
+            >01 <b>Assess</b><small>Understand level</small></span
+          ><span class="loop-step ls2"
+            >02 <b>Analyze</b><small>Find patterns</small></span
+          ><span class="loop-step ls3"
+            >03 <b>Explain</b><small>Teach the why</small></span
+          ><span class="loop-step ls4"
+            >04 <b>Practice</b><small>Target weakness</small></span
+          ><span class="loop-step ls5"
+            >05 <b>Evaluate</b><small>Check improvement</small></span
+          ><span class="loop-step ls6"
+            >06 <b>Adapt</b><small>Update profile</small></span
+          >
+        </div>
+      </section>
+      <section class="frame agent-example-section reveal">
+        <div class="section-intro centered">
+          <div class="eyebrow">23 / Real example</div>
+          <h2>
+            Watch the agent<br /><span class="lime-text"
+              >learn about a student.</span
+            >
+          </h2>
+        </div>
+        <div class="agent-example">
+          <div class="agent-event">
+            <span>Student writes</span
+            ><strong>“My school are very beautiful.”</strong>
+          </div>
+          <div class="agent-event">
+            <span>AI detects</span
+            ><strong>Grammar → Subject–verb agreement</strong>
+          </div>
+          <div class="agent-event">
+            <span>AI explains</span
+            ><strong>“School” is singular, so the correct verb is “is.”</strong>
+          </div>
+          <div class="agent-event success">
+            <span>Student profile updated</span
+            ><strong
+              >Grammar weakness: Subject–verb agreement <em>+1</em></strong
+            >
+          </div>
+          <div class="agent-event">
+            <span>AI generates next exercise</span
+            ><strong
+              >My friends
+              <button class="inline-answer" data-agent-answer="wrong">
+                is
+              </button>
+              playing. / My friends
+              <button class="inline-answer" data-agent-answer="right">
+                are
+              </button>
+              playing.</strong
+            ><small id="agent-feedback">Select the stronger sentence.</small>
+          </div>
+        </div>
+      </section>
+      <section class="frame data-section reveal">
+        <div class="section-intro">
+          <div class="eyebrow">24 / Data model</div>
+          <h2>
+            Every interaction makes<br /><span class="lime-text"
+              >the tutor smarter.</span
+            >
+          </h2>
+          <p>The database becomes the learner's long-term memory.</p>
+        </div>
+        <div class="data-model">
+          <div class="entity main">
+            <b>STUDENT</b
+            ><span>student_id · grade · goals<br />writing_level</span>
+          </div>
+          <div class="entity">
+            <b>WRITING_SUBMISSION</b><span>text · score · timestamp</span>
+          </div>
+          <div class="entity">
+            <b>SKILL</b
+            ><span>grammar · vocabulary<br />structure · creativity</span>
+          </div>
+          <div class="entity">
+            <b>MISTAKE</b><span>category · frequency<br />severity</span>
+          </div>
+          <div class="entity">
+            <b>LESSON</b><span>topic · difficulty<br />completion · score</span>
+          </div>
+          <div class="entity">
+            <b>PROGRESS</b
+            ><span>skill_score · streak<br />mastery · improvement</span>
+          </div>
+        </div>
+      </section>
+      <section class="frame rubric-section reveal">
+        <div class="section-intro centered">
+          <div class="eyebrow">25 / AI evaluation engine</div>
+          <h2>
+            How do we know the AI<br /><span class="lime-text"
+              >is actually teaching?</span
+            >
+          </h2>
+        </div>
+        <div class="rubric-grid">
+          <div class="rubric-card">
+            <b>Grammar</b><span>Correctness of syntax</span
+            ><strong>8 / 10</strong>
+          </div>
+          <div class="rubric-card">
+            <b>Vocabulary</b><span>Range and precision</span
+            ><strong>7 / 10</strong>
+          </div>
+          <div class="rubric-card">
+            <b>Structure</b><span>Logical organization</span
+            ><strong>9 / 10</strong>
+          </div>
+          <div class="rubric-card">
+            <b>Coherence</b><span>Connection of ideas</span
+            ><strong>8 / 10</strong>
+          </div>
+          <div class="rubric-card">
+            <b>Creativity</b><span>Quality of expression</span
+            ><strong>9 / 10</strong>
+          </div>
+        </div>
+        <div class="rubric-note">
+          Evaluation should be consistent, explainable, and measurable.
+          <strong>Overall: 82 / 100</strong>
+        </div>
+      </section>
+      <section class="frame rag-section reveal">
+        <div class="section-intro">
+          <div class="eyebrow">26 / RAG knowledge layer</div>
+          <h2>
+            Give the AI<br /><span class="lime-text">a teaching brain.</span>
+          </h2>
+          <p>
+            The model provides intelligence. Your knowledge base provides
+            educational context.
+          </p>
+        </div>
+        <div class="rag-pipeline">
+          <span>CURRICULUM</span><i>↓</i><span>TEXTBOOKS + RUBRICS</span><i>↓</i
+          ><span>DOCUMENT PROCESSING</span><i>↓</i><span>EMBEDDINGS</span
+          ><i>↓</i><span class="lime-node">VECTOR DB / pgvector</span><i>↓</i
+          ><span>RETRIEVAL + LLM</span><i>↓</i
+          ><strong>PERSONALIZED LESSON</strong>
+        </div>
+      </section>
+      <section id="stack" class="frame stack-section reveal">
+        <div class="section-intro centered">
+          <div class="eyebrow">27 / MVP technology stack</div>
+          <h2>
+            Build the first version<br /><span class="lime-text"
+              >with a simple stack.</span
+            >
+          </h2>
+        </div>
+        <div class="stack-grid">
+          <div><small>Frontend</small><strong>React</strong></div>
+          <div><small>Backend</small><strong>FastAPI / Node.js</strong></div>
+          <div><small>Database</small><strong>PostgreSQL</strong></div>
+          <div><small>AI</small><strong>OpenAI API</strong></div>
+          <div><small>RAG</small><strong>FAISS / pgvector</strong></div>
+          <div><small>Auth</small><strong>JWT / OAuth</strong></div>
+          <div><small>Deploy</small><strong>AWS / Vercel</strong></div>
+          <div><small>Monitor</small><strong>Logs + eval metrics</strong></div>
+        </div>
+      </section>
+      <section class="frame focus-section reveal">
+        <div class="focus-card">
+          <div class="eyebrow">28 / What not to build yet</div>
+          <h2>Stay focused.</h2>
+          <p class="not-yet">
+            Not yet: your own foundation model · voice tutoring · mobile apps ·
+            50+ subjects · global curriculum · advanced gamification ·
+            enterprise school management
+          </p>
+          <div class="mvp-callout">
+            <span>MVP ONLY</span>
+            <h3>AI Essay Tutor for Classes 8–12</h3>
+            <p>
+              Writing assessment · grammar feedback · essay evaluation ·
+              personalized exercises · progress tracking
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="frame six-month-section reveal">
+        <div class="section-intro">
+          <div class="eyebrow">29 / Six-month build roadmap</div>
+          <h2>
+            From developer<br /><span class="lime-text">→ founder → MVP.</span>
+          </h2>
+        </div>
+        <div class="months">
+          <article>
+            <b>Month 01</b>
+            <h3>LLM applications</h3>
+            <p>Prompts · APIs · outputs</p>
+          </article>
+          <article>
+            <b>Month 02</b>
+            <h3>AI evaluation</h3>
+            <p>Rubrics · datasets · quality</p>
+          </article>
+          <article>
+            <b>Month 03</b>
+            <h3>Agentic architecture</h3>
+            <p>Profiles · memory · workflows</p>
+          </article>
+          <article>
+            <b>Month 04</b>
+            <h3>Product development</h3>
+            <p>React · backend · database</p>
+          </article>
+          <article>
+            <b>Month 05</b>
+            <h3>MVP integration</h3>
+            <p>Evaluator · lessons · parents</p>
+          </article>
+          <article>
+            <b>Month 06</b>
+            <h3>Pilot</h3>
+            <p>20–50 students · iterate</p>
+          </article>
+        </div>
+      </section>
+      <section class="frame moat-section reveal">
+        <div class="moat-orbit">
+          <span>Student data</span><span>Educational content</span
+          ><span>Evaluation system</span><span>Personalization engine</span
+          ><span>Learning outcomes</span><strong>AI WRITING<br />TUTOR</strong>
+        </div>
+        <div class="moat-copy">
+          <div class="eyebrow">30 / The real competitive advantage</div>
+          <h2>
+            The AI model<br /><span class="lime-text">isn't the moat.</span>
+          </h2>
+          <p>
+            The product becomes valuable because it understands how students
+            learn, not simply because it can generate text.
+          </p>
+        </div>
+      </section>
+      <section class="frame final-section reveal">
+        <div class="final-mark">✦</div>
+        <div class="eyebrow">31 / The product vision</div>
+        <h2>
+          Build the tutor you wish<br /><span class="accent-text"
+            >every student had.</span
+          >
+        </h2>
+        <p>
+          AI that doesn't just write for students. AI that teaches students to
+          write.
+        </p>
+        <div class="vision-flow">
+          <span>Student writes poorly</span><i>→</i><span>AI teaches</span
+          ><i>→</i><span>Student practices</span><i>→</i
+          ><span>Student improves</span><i>→</i
+          ><strong>Writes confidently</strong>
+        </div>
+        <a class="button" href="index.html#practice"
+          >Build the MVP <span>↗</span></a
+        >
+      </section>
+    </main>
+    <footer>
+      <span>✦ AI Writing Tutor</span
+      ><span>How we build the adaptive learning system.</span
+      ><span><a href="index.html">Back to the tutor</a></span>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
